@@ -1,16 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
-class CurrencyRow extends Component {
-  render() {
-    return (
-      <div>
-        <input type="number" className="input" />
-        <select>
-          <option value="Hi"> Hi </option>
-        </select>
-      </div>
-    );
-  }
-}
+const CurrencyRow = props => {
+  const { currencyOptions, selectedCurrency } = props;
+  return (
+    <div>
+      <input type="number" className="input" />
+      <select value={selectedCurrency}>
+        {/* loop through currencyOptions */}
+        {currencyOptions.map(option => (
+          <option key={option} value={option}>
+            {" "}
+            {option}{" "}
+          </option>
+        ))}
+      </select>
+    </div>
+  );
+};
 
 export default CurrencyRow;
