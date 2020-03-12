@@ -9,6 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Oxanium", serif;
 }
 
 .container {
@@ -18,7 +19,6 @@ body {
 }
 
 .currency {
-  /* margin: 50px 100px; */
   padding: 50px 125px;
 }
 
@@ -39,6 +39,9 @@ h1 {
 
 select {
   margin-left: 0.5rem;
+  height: 33px;
+  text-align: center;
+  border: none;
 }
 
 .equals {
