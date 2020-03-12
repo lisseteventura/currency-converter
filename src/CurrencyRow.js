@@ -9,7 +9,7 @@ const CurrencyRow = props => {
     amount
   } = props;
   return (
-    <div>
+    <div className="currency">
       <input
         type="number"
         className="input"
