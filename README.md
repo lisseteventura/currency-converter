@@ -5,5 +5,5 @@ This dynamic currency converter allows users to convert between 33 different cur
 - React
 - API: Exchange Rate API
 
-### Demo
-![Currency-converter](https://user-images.githubusercontent.com/54462998/78314973-a9236700-7529-11ea-8ff4-788b82fbbdd0.gif)
+### Screenshot
+<img width="1034" alt="Screen Shot 2020-04-02 at 9 45 57 PM" src="https://user-images.githubusercontent.com/54462998/78315564-62cf0780-752b-11ea-9270-ae0e4f6029e6.png">
